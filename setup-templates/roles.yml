@@ -58,6 +58,6 @@ Resources:
 
 Outputs:
   SharedServiceRoleName:
-    Value: !GetAtt SharedServiceRole
+    Value: !Ref SharedServiceRole
   SharedDeploymentRoleName:
-    Value: !GetAtt SharedDeploymentRole
+    Value: !Ref SharedDeploymentRole
