@@ -1,3 +1,5 @@
+- name: Codacy Analysis CLI
+  uses: codacy/codacy-analysis-cli-action@v4.1.0
 variables:
   PROD_ACCOUNT: "012345678901" #12-digit account ID for your production AWS environment
   STAGING_ACCOUNT: "098765432123" #12-digit account ID for your staging AWS environment
